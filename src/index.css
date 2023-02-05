@@ -1,0 +1,29 @@
+body {
+  width: 30rem;
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 11px 0 rgba(0, 0, 0, 0.1);
+  /*scrollbar hidden*/
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+.container{
+  margin: auto;
+  width: 95%;
+}
+
+.unselectable{
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                        supported by Chrome and Opera */
+}
